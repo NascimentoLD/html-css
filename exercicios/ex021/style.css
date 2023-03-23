@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1{
+    background-color: grey;
+    height: 300px;  
+    width: 300px;
+    border: 10px solid #001aff;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 70px 20px;
+}
+
+a{
+    border: 10px double red;
+    padding: 15px 10px 15px 10px ;
+}

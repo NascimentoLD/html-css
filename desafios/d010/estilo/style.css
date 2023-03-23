@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #9AEBA3, green);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px #000000b4;
+    font-weight: bold;
+    padding: 1px;
+}
+
+nav{
+    background-color: green;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px
+}
+
+nav >a{
+    text-decoration: none;
+    color: white;    
+    margin: 10px;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: rgba(127, 255, 212, 0.253);
+    border-radius: 10px;
+    color: black;
+}
+
+a:active{
+    color: rgb(255, 251, 0);
+}
+
+
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    text-indent: 30px;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.cor{
+    background-color: #9aeba3a1;
+    padding: 4px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+article >h2{
+    color: rgb(1, 100, 1);
+    font-family: idroid;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.247);
+}
+
+#extra{
+    background-color: rgba(127, 255, 212, 0.438);
+    border-radius: 20px;
+}
+
+aside >h2{
+    background-color: #009e12;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside >p{
+    text-align: justify;    
+    padding: 10px;
+}
+
+aside >ul{
+    display: inline-block;
+    text-align: center;
+}
+
+video{
+    width: 100%;
+}
+
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+footer >p{
+    margin: 0px;
+}
