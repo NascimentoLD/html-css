@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
- <a href="https://nascimentold.github.io/html-css/desafios/d010b/index.html"> Executar o desafio 10
+ <a href="https://nascimentold.github.io/html-css/desafios/d010b/index.html" target="_blank"> Executar o desafio 10
