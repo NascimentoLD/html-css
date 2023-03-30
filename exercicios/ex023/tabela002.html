@@ -13,9 +13,11 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            margin: auto;
         }
 
         td, th{
+            font-size: 1.5em;
             border: 1px solid black;
         }
 
@@ -29,10 +31,14 @@
         }
 
         caption{
-            font-size: 1.5em;
+            font-size: 1.8em;
             font-weight: bold;
             background-color: lightgray;
             padding: 10px;
+        }
+
+        table, caption{
+            border: 5px solid black;
         }
     </style>
 </head>
@@ -59,8 +65,8 @@
 
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 250px;">População</th>
             </tr>
         </thead>
 
@@ -198,7 +204,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row ">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
