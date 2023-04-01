@@ -6,36 +6,223 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 013-C</title>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
         body{
             font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
         }
 
         table{
-            width: 200px;
+            background-color: white;
+            border: 8px solid black;
+            box-shadow: 30px 20px 20px rgba(0, 0, 0, 0.432);
+            padding: 15px;
+            margin: auto;
         }
 
         td{
-            border: 1px solid black;
+            border: 2px solid black;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+        }       
+        
+        td:hover{
+            background-color: gray;
         }
+
+        h1{
+            background-color: #525252;
+            font-size: 3em;
+            text-align: center;
+            text-shadow: 2px 2px 10px black;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.555);
+            color: white;
+            width: 100vw;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            margin-bottom: 100px;
+        }
+
+        .tcl{
+            background-color: transparent;
+            border: 0px;
+        }
+
+        .tcl:hover{
+            background-color: transparent;
+        }
+
+        footer{
+            background-color: #494949;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 3px black;
+            padding: 10px;
+            margin-top: 100px;
+        }
+
     </style>
 </head>
 <body>
+    <h1>TECLADO DESKTOP</h1>
     <Table>
         <tr>
-            <td class="pd">ESC</td>
+            <td>ESC</td>
+            <td class="tcl"></td>
             <td>F1</td>
             <td>F2</td>
             <td>F3</td>
-            <td class="pd">F4</td>
+            <td>F4</td>
             <td>F5</td>
             <td>F6</td>
             <td>F7</td>
-            <td class="pd">F8</td>
+            <td>F8</td>
             <td>F9</td>
             <td>F10</td>
             <td>F11</td>
             <td>F12</td>
+            <td class="tcl" id=""></td>
+            <td class="tcl" id=""></td>
+            <td class="tcl" id=""></td>
+            <td class="tcl" id=""></td>
+            <td class="tcl" id=""></td>
+            <td class="tcl" id=""></td>
+            <td>Print</td>
+            <td>Scroll</td>
+            <td>Pause</td>
+        </tr>
+
+        <tr>
+            <td>"</td>
+            <td>!</td>
+            <td>@</td>
+            <td>#</td>
+            <td>$</td>
+            <td>%</td>
+            <td>¬¨¨</td>
+            <td>&</td>
+            <td>*</td>
+            <td>(</td>
+            <td>)</td>
+            <td>_</td>
+            <td>=</td>
+            <td>&#x2B05</td>
+            <td class="tcl"></td>
+            <td>Insert</td>
+            <td>Home</td>
+            <td>Page</td>
+            <td class="tcl"></td>
+            <td>Num <br> Lock</td>
+            <td>/</td>
+            <td>*</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <td>TAB</td>
+            <td>Q</td>
+            <td>W</td>
+            <td>E</td>
+            <td>R</td>
+            <td>T</td>
+            <td>Y</td>
+            <td>U</td>
+            <td>I</td>
+            <td>O</td>
+            <td>P</td>
+            <td>``</td>
+            <td>ª</td>
+            <td rowspan="2">ENTER</td>
+            <td class="tcl"></td>
+            <td>Delet</td>
+            <td>End</td>
+            <td>Page</td>
+            <td class="tcl"></td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>+</td>
+        </tr>
+
+        <tr>
+            <td>CAPS <br> LOCK</td>
+            <td>A</td>
+            <td>S</td>
+            <td>D</td>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+            <td>ç</td>
+            <td>^~</td>
+            <td>º</td>
+            <td class="tcl"></td>
+            <td class="tcl"></td>
+            <td class="tcl"></td>
+            <td class="tcl"></td>
+            <td class="tcl"></td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>.</td>
+        </tr>
+
+        <tr>
+            <td>SHIFT</td>
+            <td>\</td>
+            <td>Z</td>
+            <td>X</td>
+            <td>C</td>
+            <td>V</td>
+            <td>B</td>
+            <td>N</td>
+            <td>M</td>
+            <td>,</td>
+            <td>.</td>
+            <td>;</td>
+            <td>?</td>
+            <td>SHIFT</td>
+            <td class="tcl"></td>
+            <td class="tcl"></td>
+            <td>&#x2B06</td>
+            <td class="tcl"></td>
+            <td class="tcl"></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td rowspan="2">ENTER</td>
+        </tr>
+
+        <tr>
+            <td>CTRL</td>
+            <td>&#x1F4BB</td>
+            <td>ALT</td>
+            <td colspan="7">ESPAÇO</td>
+            <td>GR</td>
+            <td>&#x1F4BB</td>
+            <td>BR</td>
+            <td>CTRL</td>
+            <td class="tcl"></td>
+            <td>&#x2B05</td>
+            <td>&#x2B07</td>
+            <td>&#x27A1</td>
+            <td class="tcl"></td>
+            <td colspan="2">0</td>
+            <td>del</td>
         </tr>
     </Table>
+
+    <footer>
+        <p>Teclado criado pelo DEV LD</p>
+    </footer>
 </body>
 </html>
