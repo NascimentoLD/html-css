@@ -56,15 +56,15 @@
 
         <thead>
             <tr class="bck">
-                <th>Grupo</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
 
         <tbody>
             <tr class="trs">
-                <th rowspan="3" id="woman">Mulheres</th>
+                <th rowspan="3" id="woman" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -83,7 +83,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr class="trs2">
-                <th rowspan="3" id="men">Homens</th>
+                <th rowspan="3" id="men" scope="rowgroup">Homens</th>
                 <td>Bruno Melo</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
@@ -102,6 +102,11 @@
                 <td>Toy Story</td>
             </tr>
         </tbody>
+
+        <tfoot>
+            <th  colspan="4" scope="row">Total</th>
+            <td>1.000.000.000</td>
+        </tfoot>
     </table>
 </body>
 </html>
